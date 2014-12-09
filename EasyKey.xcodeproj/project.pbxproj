@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48E37B09A750C0063A7B7F36 /* libPods-EasyKey.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8EE2E587172A08F18CA639 /* libPods-EasyKey.a */; };
+		88208AF81A2EAEE80053670E /* EKOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 88208AF71A2EAEE80053670E /* EKOverlayWindow.m */; };
+		88A505C91A2E3C9800845146 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A505C81A2E3C9800845146 /* Cocoa.framework */; };
+		88A505D31A2E3C9800845146 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88A505D11A2E3C9800845146 /* InfoPlist.strings */; };
+		88A505D51A2E3C9800845146 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A505D41A2E3C9800845146 /* main.m */; };
+		88A505D91A2E3C9800845146 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 88A505D71A2E3C9800845146 /* Credits.rtf */; };
+		88A505DF1A2E3C9800845146 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A505DD1A2E3C9800845146 /* MainMenu.xib */; };
+		88A505E11A2E3C9800845146 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A505E01A2E3C9800845146 /* Images.xcassets */; };
+		88A505E81A2E3C9800845146 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A505E71A2E3C9800845146 /* XCTest.framework */; };
+		88A505E91A2E3C9800845146 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A505C81A2E3C9800845146 /* Cocoa.framework */; };
+		88A505F11A2E3C9800845146 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88A505EF1A2E3C9800845146 /* InfoPlist.strings */; };
+		88A505F31A2E3C9800845146 /* EasyKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A505F21A2E3C9800845146 /* EasyKeyTests.m */; };
+		88DAEB871A2EABEE0042795E /* ic_keyboard_18dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB7F1A2EABEE0042795E /* ic_keyboard_18dp.png */; };
+		88DAEB881A2EABEE0042795E /* ic_keyboard_18dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB801A2EABEE0042795E /* ic_keyboard_18dp@2x.png */; };
+		88DAEB891A2EABEE0042795E /* ic_keyboard_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB811A2EABEE0042795E /* ic_keyboard_24dp.png */; };
+		88DAEB8A1A2EABEE0042795E /* ic_keyboard_24dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB821A2EABEE0042795E /* ic_keyboard_24dp@2x.png */; };
+		88DAEB8B1A2EABEE0042795E /* ic_keyboard_36dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB831A2EABEE0042795E /* ic_keyboard_36dp.png */; };
+		88DAEB8C1A2EABEE0042795E /* ic_keyboard_36dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB841A2EABEE0042795E /* ic_keyboard_36dp@2x.png */; };
+		88DAEB8D1A2EABEE0042795E /* ic_keyboard_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB851A2EABEE0042795E /* ic_keyboard_48dp.png */; };
+		88DAEB8E1A2EABEE0042795E /* ic_keyboard_48dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB861A2EABEE0042795E /* ic_keyboard_48dp@2x.png */; };
+		88DAEB911A2EAC090042795E /* ic_keyboard_16dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB8F1A2EAC090042795E /* ic_keyboard_16dp.png */; };
+		88DAEB921A2EAC090042795E /* ic_keyboard_16dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB901A2EAC090042795E /* ic_keyboard_16dp@2x.png */; };
+		88DAEB951A2EAC400042795E /* ic_keyboard_32dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB931A2EAC400042795E /* ic_keyboard_32dp.png */; };
+		88DAEB961A2EAC400042795E /* ic_keyboard_32dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB941A2EAC400042795E /* ic_keyboard_32dp@2x.png */; };
+		88DAEB991A2EAC850042795E /* ic_keyboard_128dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB971A2EAC850042795E /* ic_keyboard_128dp.png */; };
+		88DAEB9A1A2EAC850042795E /* ic_keyboard_128dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DAEB981A2EAC850042795E /* ic_keyboard_128dp@2x.png */; };
+		88E3F0781A2E451000ACDDB7 /* EKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F0771A2E451000ACDDB7 /* EKAppDelegate.m */; };
+		88E3F07B1A2E452900ACDDB7 /* EKSystemEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F07A1A2E452900ACDDB7 /* EKSystemEvents.m */; };
+		88E3F07E1A2E456F00ACDDB7 /* EKScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F07D1A2E456F00ACDDB7 /* EKScanner.m */; };
+		88E3F0811A2E45F500ACDDB7 /* HAXElement+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F0801A2E45F500ACDDB7 /* HAXElement+Utilities.m */; };
+		88E3F0841A2E461100ACDDB7 /* EKHints.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F0831A2E461100ACDDB7 /* EKHints.m */; };
+		88E3F0871A2E466E00ACDDB7 /* EKSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F0861A2E466E00ACDDB7 /* EKSettings.m */; };
+		88E3F08A1A2E46BC00ACDDB7 /* EKLoginItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F0891A2E46BC00ACDDB7 /* EKLoginItem.m */; };
+		88E3F08E1A2E4DD100ACDDB7 /* EKPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F08D1A2E4DD100ACDDB7 /* EKPreferencesController.m */; };
+		88E3F0911A2E5DD400ACDDB7 /* HAXApplication+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F0901A2E5DD400ACDDB7 /* HAXApplication+Utilities.m */; };
+		88E3F0941A2E707300ACDDB7 /* EKOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F0931A2E707300ACDDB7 /* EKOverlayView.m */; };
+		88E3F0971A2E70AE00ACDDB7 /* EKBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F0961A2E70AE00ACDDB7 /* EKBadgeView.m */; };
+		88E3F09A1A2E76F400ACDDB7 /* EKStatusItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E3F0991A2E76F400ACDDB7 /* EKStatusItemController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88A505EA1A2E3C9800845146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88A505BD1A2E3C9800845146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88A505C41A2E3C9800845146;
+			remoteInfo = EasyKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E8EE2E587172A08F18CA639 /* libPods-EasyKey.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyKey.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C334FCD0B06A14895AC4B9B /* Pods-EasyKey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyKey.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyKey/Pods-EasyKey.release.xcconfig"; sourceTree = "<group>"; };
+		77615D86DBDD52FCBB48626A /* Pods-EasyKey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyKey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyKey/Pods-EasyKey.debug.xcconfig"; sourceTree = "<group>"; };
+		88208AF61A2EAEE80053670E /* EKOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKOverlayWindow.h; path = View/EKOverlayWindow.h; sourceTree = "<group>"; };
+		88208AF71A2EAEE80053670E /* EKOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKOverlayWindow.m; path = View/EKOverlayWindow.m; sourceTree = "<group>"; };
+		88A505C51A2E3C9800845146 /* EasyKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A505C81A2E3C9800845146 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		88A505CB1A2E3C9800845146 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		88A505CC1A2E3C9800845146 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		88A505CD1A2E3C9800845146 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88A505D01A2E3C9800845146 /* EasyKey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyKey-Info.plist"; sourceTree = "<group>"; };
+		88A505D21A2E3C9800845146 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88A505D41A2E3C9800845146 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88A505D61A2E3C9800845146 /* EasyKey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyKey-Prefix.pch"; sourceTree = "<group>"; };
+		88A505D81A2E3C9800845146 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		88A505DE1A2E3C9800845146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		88A505E01A2E3C9800845146 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88A505E61A2E3C9800845146 /* EasyKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A505E71A2E3C9800845146 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		88A505EE1A2E3C9800845146 /* EasyKeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyKeyTests-Info.plist"; sourceTree = "<group>"; };
+		88A505F01A2E3C9800845146 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88A505F21A2E3C9800845146 /* EasyKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyKeyTests.m; sourceTree = "<group>"; };
+		88DAEB7F1A2EABEE0042795E /* ic_keyboard_18dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_18dp.png; path = Icons/ic_keyboard_18dp.png; sourceTree = "<group>"; };
+		88DAEB801A2EABEE0042795E /* ic_keyboard_18dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_keyboard_18dp@2x.png"; path = "Icons/ic_keyboard_18dp@2x.png"; sourceTree = "<group>"; };
+		88DAEB811A2EABEE0042795E /* ic_keyboard_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_24dp.png; path = Icons/ic_keyboard_24dp.png; sourceTree = "<group>"; };
+		88DAEB821A2EABEE0042795E /* ic_keyboard_24dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_keyboard_24dp@2x.png"; path = "Icons/ic_keyboard_24dp@2x.png"; sourceTree = "<group>"; };
+		88DAEB831A2EABEE0042795E /* ic_keyboard_36dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_36dp.png; path = Icons/ic_keyboard_36dp.png; sourceTree = "<group>"; };
+		88DAEB841A2EABEE0042795E /* ic_keyboard_36dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_keyboard_36dp@2x.png"; path = "Icons/ic_keyboard_36dp@2x.png"; sourceTree = "<group>"; };
+		88DAEB851A2EABEE0042795E /* ic_keyboard_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_48dp.png; path = Icons/ic_keyboard_48dp.png; sourceTree = "<group>"; };
+		88DAEB861A2EABEE0042795E /* ic_keyboard_48dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_keyboard_48dp@2x.png"; path = "Icons/ic_keyboard_48dp@2x.png"; sourceTree = "<group>"; };
+		88DAEB8F1A2EAC090042795E /* ic_keyboard_16dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_16dp.png; path = Icons/ic_keyboard_16dp.png; sourceTree = "<group>"; };
+		88DAEB901A2EAC090042795E /* ic_keyboard_16dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_keyboard_16dp@2x.png"; path = "Icons/ic_keyboard_16dp@2x.png"; sourceTree = "<group>"; };
+		88DAEB931A2EAC400042795E /* ic_keyboard_32dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_32dp.png; path = Icons/ic_keyboard_32dp.png; sourceTree = "<group>"; };
+		88DAEB941A2EAC400042795E /* ic_keyboard_32dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_keyboard_32dp@2x.png"; path = "Icons/ic_keyboard_32dp@2x.png"; sourceTree = "<group>"; };
+		88DAEB971A2EAC850042795E /* ic_keyboard_128dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_128dp.png; path = Icons/ic_keyboard_128dp.png; sourceTree = "<group>"; };
+		88DAEB981A2EAC850042795E /* ic_keyboard_128dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_keyboard_128dp@2x.png"; path = "Icons/ic_keyboard_128dp@2x.png"; sourceTree = "<group>"; };
+		88E3F0761A2E451000ACDDB7 /* EKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKAppDelegate.h; path = Classes/EKAppDelegate.h; sourceTree = "<group>"; };
+		88E3F0771A2E451000ACDDB7 /* EKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKAppDelegate.m; path = Classes/EKAppDelegate.m; sourceTree = "<group>"; };
+		88E3F0791A2E452900ACDDB7 /* EKSystemEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKSystemEvents.h; path = Classes/EKSystemEvents.h; sourceTree = "<group>"; };
+		88E3F07A1A2E452900ACDDB7 /* EKSystemEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKSystemEvents.m; path = Classes/EKSystemEvents.m; sourceTree = "<group>"; };
+		88E3F07C1A2E456F00ACDDB7 /* EKScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKScanner.h; path = Classes/EKScanner.h; sourceTree = "<group>"; };
+		88E3F07D1A2E456F00ACDDB7 /* EKScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKScanner.m; path = Classes/EKScanner.m; sourceTree = "<group>"; };
+		88E3F07F1A2E45F500ACDDB7 /* HAXElement+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HAXElement+Utilities.h"; path = "Category/HAXElement+Utilities.h"; sourceTree = "<group>"; };
+		88E3F0801A2E45F500ACDDB7 /* HAXElement+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HAXElement+Utilities.m"; path = "Category/HAXElement+Utilities.m"; sourceTree = "<group>"; };
+		88E3F0821A2E461100ACDDB7 /* EKHints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKHints.h; path = Classes/EKHints.h; sourceTree = "<group>"; };
+		88E3F0831A2E461100ACDDB7 /* EKHints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKHints.m; path = Classes/EKHints.m; sourceTree = "<group>"; };
+		88E3F0851A2E466E00ACDDB7 /* EKSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKSettings.h; path = Classes/EKSettings.h; sourceTree = "<group>"; };
+		88E3F0861A2E466E00ACDDB7 /* EKSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKSettings.m; path = Classes/EKSettings.m; sourceTree = "<group>"; };
+		88E3F0881A2E46BC00ACDDB7 /* EKLoginItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKLoginItem.h; path = Classes/EKLoginItem.h; sourceTree = "<group>"; };
+		88E3F0891A2E46BC00ACDDB7 /* EKLoginItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKLoginItem.m; path = Classes/EKLoginItem.m; sourceTree = "<group>"; };
+		88E3F08C1A2E4DD100ACDDB7 /* EKPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKPreferencesController.h; path = Controller/EKPreferencesController.h; sourceTree = "<group>"; };
+		88E3F08D1A2E4DD100ACDDB7 /* EKPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKPreferencesController.m; path = Controller/EKPreferencesController.m; sourceTree = "<group>"; };
+		88E3F08F1A2E5DD400ACDDB7 /* HAXApplication+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HAXApplication+Utilities.h"; path = "Category/HAXApplication+Utilities.h"; sourceTree = "<group>"; };
+		88E3F0901A2E5DD400ACDDB7 /* HAXApplication+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HAXApplication+Utilities.m"; path = "Category/HAXApplication+Utilities.m"; sourceTree = "<group>"; };
+		88E3F0921A2E707300ACDDB7 /* EKOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKOverlayView.h; path = View/EKOverlayView.h; sourceTree = "<group>"; };
+		88E3F0931A2E707300ACDDB7 /* EKOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKOverlayView.m; path = View/EKOverlayView.m; sourceTree = "<group>"; };
+		88E3F0951A2E70AE00ACDDB7 /* EKBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKBadgeView.h; path = View/EKBadgeView.h; sourceTree = "<group>"; };
+		88E3F0961A2E70AE00ACDDB7 /* EKBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKBadgeView.m; path = View/EKBadgeView.m; sourceTree = "<group>"; };
+		88E3F0981A2E76F400ACDDB7 /* EKStatusItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKStatusItemController.h; path = Controller/EKStatusItemController.h; sourceTree = "<group>"; };
+		88E3F0991A2E76F400ACDDB7 /* EKStatusItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKStatusItemController.m; path = Controller/EKStatusItemController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A505C21A2E3C9800845146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A505C91A2E3C9800845146 /* Cocoa.framework in Frameworks */,
+				48E37B09A750C0063A7B7F36 /* libPods-EasyKey.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A505E31A2E3C9800845146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A505E91A2E3C9800845146 /* Cocoa.framework in Frameworks */,
+				88A505E81A2E3C9800845146 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E1E8E5B6D49D55F199E2C5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77615D86DBDD52FCBB48626A /* Pods-EasyKey.debug.xcconfig */,
+				6C334FCD0B06A14895AC4B9B /* Pods-EasyKey.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88A505BC1A2E3C9800845146 = {
+			isa = PBXGroup;
+			children = (
+				88A505CE1A2E3C9800845146 /* EasyKey */,
+				88A505EC1A2E3C9800845146 /* EasyKeyTests */,
+				88A505C71A2E3C9800845146 /* Frameworks */,
+				88A505C61A2E3C9800845146 /* Products */,
+				3E1E8E5B6D49D55F199E2C5F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		88A505C61A2E3C9800845146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88A505C51A2E3C9800845146 /* EasyKey.app */,
+				88A505E61A2E3C9800845146 /* EasyKeyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88A505C71A2E3C9800845146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88A505C81A2E3C9800845146 /* Cocoa.framework */,
+				88A505E71A2E3C9800845146 /* XCTest.framework */,
+				88A505CA1A2E3C9800845146 /* Other Frameworks */,
+				4E8EE2E587172A08F18CA639 /* libPods-EasyKey.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88A505CA1A2E3C9800845146 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88A505CB1A2E3C9800845146 /* AppKit.framework */,
+				88A505CC1A2E3C9800845146 /* CoreData.framework */,
+				88A505CD1A2E3C9800845146 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		88A505CE1A2E3C9800845146 /* EasyKey */ = {
+			isa = PBXGroup;
+			children = (
+				88E3F08B1A2E489C00ACDDB7 /* Controller */,
+				88E3F0751A2E44EF00ACDDB7 /* Category */,
+				88E3F0741A2E44E100ACDDB7 /* Classes */,
+				88E3F0731A2E44DC00ACDDB7 /* View */,
+				88A505DD1A2E3C9800845146 /* MainMenu.xib */,
+				88A505E01A2E3C9800845146 /* Images.xcassets */,
+				88A505CF1A2E3C9800845146 /* Supporting Files */,
+			);
+			path = EasyKey;
+			sourceTree = "<group>";
+		};
+		88A505CF1A2E3C9800845146 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88DAEB6E1A2EABC70042795E /* Icons */,
+				88A505D01A2E3C9800845146 /* EasyKey-Info.plist */,
+				88A505D11A2E3C9800845146 /* InfoPlist.strings */,
+				88A505D41A2E3C9800845146 /* main.m */,
+				88A505D61A2E3C9800845146 /* EasyKey-Prefix.pch */,
+				88A505D71A2E3C9800845146 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88A505EC1A2E3C9800845146 /* EasyKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				88A505F21A2E3C9800845146 /* EasyKeyTests.m */,
+				88A505ED1A2E3C9800845146 /* Supporting Files */,
+			);
+			path = EasyKeyTests;
+			sourceTree = "<group>";
+		};
+		88A505ED1A2E3C9800845146 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88A505EE1A2E3C9800845146 /* EasyKeyTests-Info.plist */,
+				88A505EF1A2E3C9800845146 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88DAEB6E1A2EABC70042795E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				88DAEB971A2EAC850042795E /* ic_keyboard_128dp.png */,
+				88DAEB981A2EAC850042795E /* ic_keyboard_128dp@2x.png */,
+				88DAEB931A2EAC400042795E /* ic_keyboard_32dp.png */,
+				88DAEB941A2EAC400042795E /* ic_keyboard_32dp@2x.png */,
+				88DAEB8F1A2EAC090042795E /* ic_keyboard_16dp.png */,
+				88DAEB901A2EAC090042795E /* ic_keyboard_16dp@2x.png */,
+				88DAEB7F1A2EABEE0042795E /* ic_keyboard_18dp.png */,
+				88DAEB801A2EABEE0042795E /* ic_keyboard_18dp@2x.png */,
+				88DAEB811A2EABEE0042795E /* ic_keyboard_24dp.png */,
+				88DAEB821A2EABEE0042795E /* ic_keyboard_24dp@2x.png */,
+				88DAEB831A2EABEE0042795E /* ic_keyboard_36dp.png */,
+				88DAEB841A2EABEE0042795E /* ic_keyboard_36dp@2x.png */,
+				88DAEB851A2EABEE0042795E /* ic_keyboard_48dp.png */,
+				88DAEB861A2EABEE0042795E /* ic_keyboard_48dp@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		88E3F0731A2E44DC00ACDDB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88E3F0921A2E707300ACDDB7 /* EKOverlayView.h */,
+				88E3F0931A2E707300ACDDB7 /* EKOverlayView.m */,
+				88E3F0951A2E70AE00ACDDB7 /* EKBadgeView.h */,
+				88E3F0961A2E70AE00ACDDB7 /* EKBadgeView.m */,
+				88208AF61A2EAEE80053670E /* EKOverlayWindow.h */,
+				88208AF71A2EAEE80053670E /* EKOverlayWindow.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		88E3F0741A2E44E100ACDDB7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				88E3F0761A2E451000ACDDB7 /* EKAppDelegate.h */,
+				88E3F0771A2E451000ACDDB7 /* EKAppDelegate.m */,
+				88E3F0791A2E452900ACDDB7 /* EKSystemEvents.h */,
+				88E3F07A1A2E452900ACDDB7 /* EKSystemEvents.m */,
+				88E3F07C1A2E456F00ACDDB7 /* EKScanner.h */,
+				88E3F07D1A2E456F00ACDDB7 /* EKScanner.m */,
+				88E3F0821A2E461100ACDDB7 /* EKHints.h */,
+				88E3F0831A2E461100ACDDB7 /* EKHints.m */,
+				88E3F0851A2E466E00ACDDB7 /* EKSettings.h */,
+				88E3F0861A2E466E00ACDDB7 /* EKSettings.m */,
+				88E3F0881A2E46BC00ACDDB7 /* EKLoginItem.h */,
+				88E3F0891A2E46BC00ACDDB7 /* EKLoginItem.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		88E3F0751A2E44EF00ACDDB7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				88E3F07F1A2E45F500ACDDB7 /* HAXElement+Utilities.h */,
+				88E3F0801A2E45F500ACDDB7 /* HAXElement+Utilities.m */,
+				88E3F08F1A2E5DD400ACDDB7 /* HAXApplication+Utilities.h */,
+				88E3F0901A2E5DD400ACDDB7 /* HAXApplication+Utilities.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		88E3F08B1A2E489C00ACDDB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88E3F08C1A2E4DD100ACDDB7 /* EKPreferencesController.h */,
+				88E3F08D1A2E4DD100ACDDB7 /* EKPreferencesController.m */,
+				88E3F0981A2E76F400ACDDB7 /* EKStatusItemController.h */,
+				88E3F0991A2E76F400ACDDB7 /* EKStatusItemController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88A505C41A2E3C9800845146 /* EasyKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A505F61A2E3C9800845146 /* Build configuration list for PBXNativeTarget "EasyKey" */;
+			buildPhases = (
+				8C93CC3D2F702FA34D889D62 /* Check Pods Manifest.lock */,
+				88A505C11A2E3C9800845146 /* Sources */,
+				88A505C21A2E3C9800845146 /* Frameworks */,
+				88A505C31A2E3C9800845146 /* Resources */,
+				79BDF390C50499AA164CE44E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyKey;
+			productName = EasyKey;
+			productReference = 88A505C51A2E3C9800845146 /* EasyKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88A505E51A2E3C9800845146 /* EasyKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A505F91A2E3C9800845146 /* Build configuration list for PBXNativeTarget "EasyKeyTests" */;
+			buildPhases = (
+				88A505E21A2E3C9800845146 /* Sources */,
+				88A505E31A2E3C9800845146 /* Frameworks */,
+				88A505E41A2E3C9800845146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A505EB1A2E3C9800845146 /* PBXTargetDependency */,
+			);
+			name = EasyKeyTests;
+			productName = EasyKeyTests;
+			productReference = 88A505E61A2E3C9800845146 /* EasyKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88A505BD1A2E3C9800845146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = EasyKey;
+				TargetAttributes = {
+					88A505E51A2E3C9800845146 = {
+						TestTargetID = 88A505C41A2E3C9800845146;
+					};
+				};
+			};
+			buildConfigurationList = 88A505C01A2E3C9800845146 /* Build configuration list for PBXProject "EasyKey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88A505BC1A2E3C9800845146;
+			productRefGroup = 88A505C61A2E3C9800845146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88A505C41A2E3C9800845146 /* EasyKey */,
+				88A505E51A2E3C9800845146 /* EasyKeyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88A505C31A2E3C9800845146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A505D31A2E3C9800845146 /* InfoPlist.strings in Resources */,
+				88DAEB8E1A2EABEE0042795E /* ic_keyboard_48dp@2x.png in Resources */,
+				88DAEB951A2EAC400042795E /* ic_keyboard_32dp.png in Resources */,
+				88DAEB9A1A2EAC850042795E /* ic_keyboard_128dp@2x.png in Resources */,
+				88DAEB871A2EABEE0042795E /* ic_keyboard_18dp.png in Resources */,
+				88DAEB8B1A2EABEE0042795E /* ic_keyboard_36dp.png in Resources */,
+				88DAEB911A2EAC090042795E /* ic_keyboard_16dp.png in Resources */,
+				88DAEB8C1A2EABEE0042795E /* ic_keyboard_36dp@2x.png in Resources */,
+				88DAEB891A2EABEE0042795E /* ic_keyboard_24dp.png in Resources */,
+				88DAEB961A2EAC400042795E /* ic_keyboard_32dp@2x.png in Resources */,
+				88A505E11A2E3C9800845146 /* Images.xcassets in Resources */,
+				88DAEB921A2EAC090042795E /* ic_keyboard_16dp@2x.png in Resources */,
+				88DAEB8D1A2EABEE0042795E /* ic_keyboard_48dp.png in Resources */,
+				88DAEB8A1A2EABEE0042795E /* ic_keyboard_24dp@2x.png in Resources */,
+				88DAEB991A2EAC850042795E /* ic_keyboard_128dp.png in Resources */,
+				88DAEB881A2EABEE0042795E /* ic_keyboard_18dp@2x.png in Resources */,
+				88A505D91A2E3C9800845146 /* Credits.rtf in Resources */,
+				88A505DF1A2E3C9800845146 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A505E41A2E3C9800845146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A505F11A2E3C9800845146 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79BDF390C50499AA164CE44E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyKey/Pods-EasyKey-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C93CC3D2F702FA34D889D62 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88A505C11A2E3C9800845146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E3F08A1A2E46BC00ACDDB7 /* EKLoginItem.m in Sources */,
+				88E3F07E1A2E456F00ACDDB7 /* EKScanner.m in Sources */,
+				88E3F0781A2E451000ACDDB7 /* EKAppDelegate.m in Sources */,
+				88E3F0911A2E5DD400ACDDB7 /* HAXApplication+Utilities.m in Sources */,
+				88208AF81A2EAEE80053670E /* EKOverlayWindow.m in Sources */,
+				88E3F0941A2E707300ACDDB7 /* EKOverlayView.m in Sources */,
+				88E3F09A1A2E76F400ACDDB7 /* EKStatusItemController.m in Sources */,
+				88A505D51A2E3C9800845146 /* main.m in Sources */,
+				88E3F0811A2E45F500ACDDB7 /* HAXElement+Utilities.m in Sources */,
+				88E3F0871A2E466E00ACDDB7 /* EKSettings.m in Sources */,
+				88E3F0841A2E461100ACDDB7 /* EKHints.m in Sources */,
+				88E3F07B1A2E452900ACDDB7 /* EKSystemEvents.m in Sources */,
+				88E3F0971A2E70AE00ACDDB7 /* EKBadgeView.m in Sources */,
+				88E3F08E1A2E4DD100ACDDB7 /* EKPreferencesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A505E21A2E3C9800845146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A505F31A2E3C9800845146 /* EasyKeyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88A505EB1A2E3C9800845146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88A505C41A2E3C9800845146 /* EasyKey */;
+			targetProxy = 88A505EA1A2E3C9800845146 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88A505D11A2E3C9800845146 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A505D21A2E3C9800845146 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88A505D71A2E3C9800845146 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A505D81A2E3C9800845146 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		88A505DD1A2E3C9800845146 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A505DE1A2E3C9800845146 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		88A505EF1A2E3C9800845146 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A505F01A2E3C9800845146 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88A505F41A2E3C9800845146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		88A505F51A2E3C9800845146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		88A505F71A2E3C9800845146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77615D86DBDD52FCBB48626A /* Pods-EasyKey.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyKey/EasyKey-Prefix.pch";
+				INFOPLIST_FILE = "EasyKey/EasyKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88A505F81A2E3C9800845146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C334FCD0B06A14895AC4B9B /* Pods-EasyKey.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyKey/EasyKey-Prefix.pch";
+				INFOPLIST_FILE = "EasyKey/EasyKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88A505FA1A2E3C9800845146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyKey.app/Contents/MacOS/EasyKey";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyKey/EasyKey-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EasyKeyTests/EasyKeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		88A505FB1A2E3C9800845146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyKey.app/Contents/MacOS/EasyKey";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyKey/EasyKey-Prefix.pch";
+				INFOPLIST_FILE = "EasyKeyTests/EasyKeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88A505C01A2E3C9800845146 /* Build configuration list for PBXProject "EasyKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A505F41A2E3C9800845146 /* Debug */,
+				88A505F51A2E3C9800845146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A505F61A2E3C9800845146 /* Build configuration list for PBXNativeTarget "EasyKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A505F71A2E3C9800845146 /* Debug */,
+				88A505F81A2E3C9800845146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A505F91A2E3C9800845146 /* Build configuration list for PBXNativeTarget "EasyKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A505FA1A2E3C9800845146 /* Debug */,
+				88A505FB1A2E3C9800845146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88A505BD1A2E3C9800845146 /* Project object */;
+}
