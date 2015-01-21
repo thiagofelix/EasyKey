@@ -45,3 +45,7 @@ Easy key is heavily based on the following concepts/tools:
 LICENSE
 --------
 [MIT](LICENSE)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/thiagofelix/easykey/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
